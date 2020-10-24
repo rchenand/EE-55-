@@ -43,8 +43,8 @@ for x in range(0,len(ft)):
 print(data-np.fft.ifft(ft))
 MSE = (1/d)*LA.norm((data-np.fft.ifft(ft)))**2
     
-'''plt.plot(np.fft.ifft(ft))
-plt.show()'''
+plt.plot(np.fft.ifft(ft))
+plt.show()
 print(MSE)
 
 
